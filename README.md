@@ -20,15 +20,7 @@
 Clone the repo and make the script executable:
 
 ```bash
-git clone https://github.com/yourusername/ipQuery.git
-cd ipQuery
-chmod +x ipQuery
-```
-
-(Optional) Move it to a directory in your `$PATH`:
-
-```bash
-sudo mv ipQuery /usr/local/bin/ipquery
+git clone https://github.com/deangelo-png/ipQuery && cd ipQuery && sudo bash install.sh
 ```
 
 ## Usage
