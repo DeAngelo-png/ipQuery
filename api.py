@@ -3,9 +3,7 @@ import requests, json, sys, argparse
 # me results somewhat fast on average
 # real	0m0.426s
 # user	0m0.068s
-# sys	  0m0.020s
-
-# cat:119, 226, 209 infotxt:140, 213, 124 dits:99,206,232 Core:165, 166, 179
+# sys	0m0.020s
 
 banner = """    \x1b[0;38;2;0;102;204m▘  ▄▖        
     \x1b[0;38;2;30;122;214m▌▛▌▌▌▌▌█▌▛▘▌▌
