@@ -35,18 +35,18 @@ echo "Ensuring Python 3 and pip are installed..."
 $INSTALL
 
 echo "Installing required Python packages..."
-pip3 install --user requests
+pip3 install --user requests --break-system-packages
 
 # Copy script and make executable
 echo "Setting up ipquery..."
 
-if [ ! -f "script.py" ]; then
-  echo "Error: script.py not found in the current directory."
+if [ ! -f "api.py" ]; then
+  echo "Error: api.py not found in the current directory."
   exit 1
 fi
 
-chmod +x script.py
-sudo cp script.py /bin/ipquery
+chmod +x api.py
+sudo cp api.py /bin/ipquery
 
 echo "Installed 'ipquery' to /bin/ipquery"
 
