@@ -54,12 +54,6 @@ ipquery
 * `curl`
 * `jq` (for JSON parsing)
 
-Install with:
-
-```bash
-sudo bash install.sh
-```
-
 ## API-Free
 
 Unlike most IP lookup tools online, **ipQuery** leverages the old ipinfo demo widget api so you can use it as much as you like without worrying about rate limits.
