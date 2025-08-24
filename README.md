@@ -49,6 +49,9 @@ You can also run it without an argument to get info about your own public IP:
 ipquery
 ```
 
+## How it works
+Basically a request is sent to ipinfo's old iplookup API from their old website design layout. Using this we can pull all the json data from the api that the website doesn't show you and asks for a plan.
+
 ## Dependencies
 
 * `curl`
